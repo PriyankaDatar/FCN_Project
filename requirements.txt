@@ -1,0 +1,3 @@
+PyVirtualDisplay==1.3.2
+numpy==1.18.1
+selenium==3.141.0
