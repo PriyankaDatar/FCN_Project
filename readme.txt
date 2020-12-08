@@ -23,6 +23,11 @@ videoid_outStream.txt : statistics calculated
 
 download_throughputs : array of max available throughputs - network conditioning parameter
 
+Plot graphs:
+Run below command with path to the output filename for buffer values
+python graphs.py "D:\SBU\Fall20\CSE 534 FCN\Project Proposal\CSE534\outputs\YT_Dy5vHFyqY-Y50_buffer.txt"
+
+
 Part II
 Visualizations.py -> jupyter notebook
 
