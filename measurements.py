@@ -6,8 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import sys
 
-# download_throughputs = [50, 100, 300]
-download_throughputs = [250]
+download_throughputs = [50, 100, 300]
 
 
 def get_exp_config(id):
@@ -19,8 +18,8 @@ def get_exp_config(id):
 	return EXPCONFIG
 
 
-# yt_ids = ["VDZrBx2dSw4", "hPxnIix5ExI", "Dy5vHFyqY-Y", "mb2-sbQhoN4", "VDZrBx2dSw4", "XLJCtZK0x5M", "vWFq2T5j390"]
-yt_ids=["VDZrBx2dSw4"]
+yt_ids = ["VDZrBx2dSw4", "hPxnIix5ExI", "Dy5vHFyqY-Y", "mb2-sbQhoN4", "VDZrBx2dSw4", "XLJCtZK0x5M", "vWFq2T5j390"]
+
 def runVideo(download_throughput, id, driverPath):
 	url = 'https://www.youtube.com/watch?v=' + get_exp_config(id)['ytId']
 
